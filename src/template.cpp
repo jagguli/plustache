@@ -12,7 +12,7 @@
 
 #include "include/plustache_types.hpp"
 #include "include/context.hpp"
-
+namespace mustache{
 /**
  * @brief constructor taking no arguments
  */
@@ -434,4 +434,5 @@ std::string template_t::get_template(const std::string& tmpl)
 
     // return template
     return tmp;
+}
 }

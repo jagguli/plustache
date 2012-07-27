@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include "include/plustache_types.hpp"
-
+namespace mustache{
 class Context {
 public:
     Context ();
@@ -23,4 +23,5 @@ private:
     /* data */
     std::map<std::string, PlustacheTypes::CollectionType> ctx;
 };
+}
 #endif

@@ -14,6 +14,7 @@
 #include "include/plustache_types.hpp"
 #include "include/context.hpp"
 
+namespace mustache{
 class template_t {
   typedef PlustacheTypes::ObjectType ObjectType;
   typedef PlustacheTypes::CollectionType CollectionType;
@@ -47,4 +48,5 @@ private:
     void compile_data();
     std::string get_template(const std::string& tmpl);
 };
+}
 #endif

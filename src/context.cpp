@@ -6,7 +6,7 @@
 
 #include "include/context.hpp"
 #include "include/plustache_types.hpp"
-
+namespace mustache{
 Context::Context()
 {
 
@@ -128,4 +128,5 @@ PlustacheTypes::CollectionType Context::get(const std::string& key) const
     ret = it->second;
   }
   return ret;
+}
 }

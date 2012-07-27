@@ -10,10 +10,12 @@
 #include <map>
 #include <vector>
 
+namespace mustache{
 namespace PlustacheTypes {
 /* typedefs */
 typedef std::map<std::string, std::string> ObjectType;
 typedef std::vector<ObjectType> CollectionType;
+}
 }
 
 #endif
